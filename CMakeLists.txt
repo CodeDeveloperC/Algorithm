@@ -25,5 +25,9 @@ set(SOURCE_FILES
         #BST.cpp p317.cpp BalanceTree.cpp dfs.cpp
         #p273.cpp bfs.cpp maze.cpp note.cpp operator.cpp
         #Link.cpp 01Package.cpp p333.cpp heap.cpp
-        Huffman.cpp GraphDFS.cpp GrapthDFSVector.cpp p357.cpp GraphBFS.cpp)
+#        Huffman.cpp GraphDFS.cpp GrapthDFSVector.cpp
+#        p357.cpp GraphBFS.cpp dijkstra.cpp
+#        "Adjacency table.cpp" CCF/MA.cpp
+#        CCF/4.cpp CCF/4.1.cpp
+        CCF/4.2.cpp)
 add_executable(Algorithm ${SOURCE_FILES})
