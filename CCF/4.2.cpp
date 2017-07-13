@@ -1,6 +1,5 @@
 
 #include <vector>
-#include <queue>
 #include "iostream"
 
 using namespace std;
@@ -16,7 +15,6 @@ struct Node {
 vector<Node> adj[MAXV];
 int n, m;
 
-int MAX = 0;
 int maxArray[MAXV] = { 0 };
 int MINMAX = INF;
 void dfs(int u, int depth){
@@ -55,7 +53,6 @@ int main() {
 //    }
 
     n = 6, m = 6;
-    int MIN = INF;
     Node node;
     node.v = 2; node.cost = 4; adj[1].push_back(node);
     node.v = 3; node.cost = 4; adj[2].push_back(node);

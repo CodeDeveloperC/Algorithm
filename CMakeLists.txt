@@ -29,5 +29,5 @@ set(SOURCE_FILES
 #        p357.cpp GraphBFS.cpp dijkstra.cpp
 #        "Adjacency table.cpp" CCF/MA.cpp
 #        CCF/4.cpp CCF/4.1.cpp
-        CCF/4.2.cpp)
+        CCF/4.2.cpp pat/6.cpp pat/8.cpp pat/9.cpp pat/11.cpp pat/12.cpp pat/13.cpp pat/15.cpp pat/15-e.cpp pat/87.cpp pat/23.cpp pat/189.cpp pat/232.cpp pat/keyword.cpp pat/232Example.cpp)
 add_executable(Algorithm ${SOURCE_FILES})
